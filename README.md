@@ -68,8 +68,20 @@ This repository contains a comprehensive analysis of user interactions within a 
 
 - Creation of a feature matrix with user IDs and various behavioral metrics.
 - Metrics include session count, average session time, song-related actions, and page interactions and many more below:
-  - numof_ses_byuser - Number of Sessions that each user created
-  - ...
+  -   numof_ses_byuser-Number of Sessions that each user created
+  -   session_valid_matrice-Average Session Time spent in App by each session
+  -   max_time_spent_per_user - Maximum Spent Time in the App
+  -   next_song_by_user - Number of times users trigger next song event.
+  -   thumbs_up_by_user - Number of times users click button of thumbs-up
+  -   thumbs_down_by_user - Number of times users click button of thumbs-down
+  -   merged_df - Ratio of the Thumbs-up and Thumbs-down
+  -   downgrade_by_user - Number of times users visit the downgrade page.
+  -   error_page_by_user - Number of times users visit the downgrade page.
+  -   song_valid - Average songs played in each session.
+  -   addfriend_by_user - Number of times users visit the add friend page.
+  -   help_by_user - Number of times users visit the help page.
+  -   playlist_by_user - Number of times users visit the add to playlist page.
+  -   advert_by_user - Number of times users have seen advertisement.
 
 ### 5. Machine Learning: Random Forest Classifier
 
