@@ -12,7 +12,6 @@
    3. [Conclusion](#conclusion)
    4. [Dependencies](#dependencies)
    5. [How to Run](#how-to-run)
-   6. [Acknowledgments](#acknowledgments)
 
 # Spark Churn Analysis Project
 
@@ -113,10 +112,3 @@ This Spark churn analysis project showcases the capabilities of Apache Spark and
 2. Install dependencies using `pip install -r requirements.txt`.
 3. Open the Jupyter Notebook `Spark_Churn_Analysis.ipynb` in your environment.
 4. Execute each cell sequentially for a step-by-step walkthrough.
-
-## Acknowledgments
-
-- This project was inspired by real-world challenges in user analytics.
-- Thanks to the Apache Spark and Python communities for their invaluable contributions.
-
-Feel free to explore, analyze, and extend this project for further insights into user behavior and churn prediction.
