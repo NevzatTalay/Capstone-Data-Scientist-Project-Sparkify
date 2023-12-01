@@ -29,7 +29,22 @@ This repository contains a comprehensive analysis of user interactions within a 
 - Columns:
   - **artist** - the artist of the soundtrack,
   - **auth** - variable indicating whether the user has canceled the subscription or not,
-  - ...
+  -   **firstName** - first name of the user,
+  -   **gender** - gender of the user,
+  -   **ItemInSession** - Item ID for each session (row) recorded,
+  -   **lastName** - last name of the user,
+  -   **length** - length of each session by the user,
+  -   **level** - the level of subscription of the user (free trial or paid),
+  -   **location** - location data of the user (city and state),
+  -   **method** - method of access to the page (PUT or GET)
+  -   **page** - the page in Sparkify the user visited in each session,
+  -   **registration** - user’s registration timestamp,
+  -   **sessionId** -  a session id,
+  -   **song** - the song listened to in each session, by the user,
+  -   **status** - result of the request while accessing,
+  -   **ts** - the timestamp of each session,
+  -   **userAgent** - the user agent used by the user to visit sparkify,
+  -   **userId** - unique number identifying each user.
 
 ### 2. Exploratory Data Analysis (EDA)
 
