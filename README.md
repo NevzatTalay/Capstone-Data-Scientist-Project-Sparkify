@@ -26,8 +26,8 @@ This repository contains a comprehensive analysis of user interactions within a 
 - Source: "medium-sparkify-event-data.json"
 - Description: Records every user action in the music application.
 - Columns:
-  - **artist** - the artist of the soundtrack,
-  - **auth** - variable indicating whether the user has canceled the subscription or not,
+  -   **artist** - the artist of the soundtrack,
+  -   **auth** - variable indicating whether the user has canceled the subscription or not,
   -   **firstName** - first name of the user,
   -   **gender** - gender of the user,
   -   **ItemInSession** - Item ID for each session (row) recorded,
@@ -61,7 +61,7 @@ This repository contains a comprehensive analysis of user interactions within a 
 
 - Transformation of registration and timestamp columns into Unix time.
 - Removal of rows with no user or session ID.
-- Creation of a user dataframe for churn activities (churn_matrix).
+- Creation of a user dataframe for churn activities (churn_matrice).
 
 ### 4. Feature Engineering
 
@@ -84,14 +84,14 @@ This repository contains a comprehensive analysis of user interactions within a 
 
 ### 5. Machine Learning: Random Forest Classifier
 
-- Features normalized using Standard Scaler.
-- Training of Random Forest classifier.
+- Features normalized using `Standard Scaler`.
+- Training of `Random Forest classifier`.
 - Dataset split into training and testing sets.
 - Model evaluation based on the F1 score (0.69).
 
 ### 6. Machine Learning: Pipeline and GridSearch
 
-- Three pipelines for logistic regression, random forest, and gradient-boosted tree classifiers.
+- Three pipelines for `logistic regression`, `random forest`, and `gradient-boosted tree classifiers`.
 - Feature columns assembled into vectors and standardized.
 - Hyperparameter tuning via cross-validation.
 - Model performance assessed using the F1 score.
