@@ -51,7 +51,12 @@ This repository contains a comprehensive analysis of user interactions within a 
 - Summary:
   - 543,705 rows and 18 columns.
   - Gender distribution: 198 women, 250 men (448 unique users).
-  - ...
+  -117 users downgraded subscriptions.
+  -   15,700 records with no user IDs.
+  -   Popular pages: "Next Song," "Home," "Thumbs Up."
+  -   User locations: New York, Los Angeles, Boston.
+  -   Popular artists: "Kings of Leon," "Coldplay," "Florence."
+  -   Listening peak: 15:00-17:00.
 
 ### 3. Data Wrangling
 
