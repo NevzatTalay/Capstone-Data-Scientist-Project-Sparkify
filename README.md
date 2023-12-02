@@ -87,7 +87,7 @@ This repository contains a comprehensive analysis of user interactions within a 
 - Features normalized using `Standard Scaler`.
 - Training of `Random Forest classifier`.
 - Dataset split into training and testing sets.
-- Model evaluation based on the F1 score (0.66).
+- Model evaluation based on the F1 score (0.64).
 
 ### 6. Machine Learning: Pipeline and GridSearch
 
@@ -95,8 +95,14 @@ This repository contains a comprehensive analysis of user interactions within a 
 - Feature columns assembled into vectors and standardized.
 - Hyperparameter tuning via cross-validation.
 - Model performance assessed using the F1 score.
-![image](https://github.com/NevzatTalay/Capstone-Data-Scientist-Project-Sparkify/readme_images/1.png)
 
+You can see that we improved model performance from 0.64->0.71. Logistic Regression seems have a better result.
+
+<img src="readme_images/2.png" alt="F1 Scores of Three ML Algrithm"/>
+
+Below is the best hyperparameters detected by the algorithm.
+
+<img src="readme_images/1.png" alt="Best Parameters of Three ML Algortihm"/>
 ## Conclusion
 
 This Spark churn analysis project showcases the capabilities of Apache Spark and Python in deciphering complex user datasets and predicting churn. The combination of exploratory data analysis, data wrangling, feature engineering, and advanced machine learning techniques makes this project a comprehensive exploration of Spark's potential in user analytics.
