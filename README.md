@@ -87,7 +87,7 @@ This repository contains a comprehensive analysis of user interactions within a 
 - Features normalized using `Standard Scaler`.
 - Training of `Random Forest classifier`.
 - Dataset split into training and testing sets.
-- Model evaluation based on the F1 score (0.69).
+- Model evaluation based on the F1 score (0.66).
 
 ### 6. Machine Learning: Pipeline and GridSearch
 
