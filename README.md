@@ -18,7 +18,9 @@
 ## Overview
 
 This repository contains a comprehensive analysis of user interactions within a music application, focusing on predicting user churn using Apache Spark and Python. The project encompasses data exploration, data wrangling, feature engineering, and the implementation of machine learning algorithms.
-Project includes related blog-post Named [Unveiling Insights: A Comprehensive Analysis of User Churn in Sparkify](https://medium.com/@nevzattalay/unveiling-insights-a-comprehensive-analysis-of-user-churn-in-sparkify-ad094d005d71).
+
+**Project includes related blog-post Named:**
+[Unveiling Insights: A Comprehensive Analysis of User Churn in Sparkify](https://medium.com/@nevzattalay/unveiling-insights-a-comprehensive-analysis-of-user-churn-in-sparkify-ad094d005d71).
 
 ## Project Structure
 
