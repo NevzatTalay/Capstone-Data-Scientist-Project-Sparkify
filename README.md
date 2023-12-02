@@ -12,6 +12,7 @@
    3. [Conclusion](#conclusion)
    4. [ Included Libraries](#Included-Libraries)
    5. [How to Run](#how-to-run)
+   6. [Acknowledgements](#Acknowledgements) 
 
 # Spark Churn Analysis Project
 
@@ -144,3 +145,14 @@ import matplotlib.pyplot as plt
 2. Install dependencies using `pip install -r requirements.txt`.
 3. Open the Jupyter Notebook `Spark_Churn_Analysis.ipynb` in your environment.
 4. Execute each cell sequentially for a step-by-step walkthrough.
+
+# Acknowledgements
+This project would not have been possible without the valuable resources and learning experiences provided by the following:
+
+[Udacity Spark Course](https://www.udacity.com/course/learn-spark-at-udacity--ud2002): A fundamental course that laid the groundwork for understanding Apache Spark, enabling the development of this project.
+
+[Spark Python API reference](https://spark.apache.org/docs/latest/api/python/reference/index.html): The extensive documentation served as an invaluable guide, offering insights and solutions throughout the development process.
+
+[IBM Watson Studio](https://www.ibm.com/products/watson-studio): The scalable ML building environment provided by IBM facilitated the implementation of advanced machine learning techniques, contributing to the project's robustness.
+
+[DataScientist](https://learn.udacity.com/nanodegrees/nd025): The comprehensive Data Scientist course on Udacity that I have taken up to this point. This project is the final capstone project of this course. All the material within the course led me to achieve this project.
