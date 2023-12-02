@@ -95,6 +95,7 @@ This repository contains a comprehensive analysis of user interactions within a 
 - Feature columns assembled into vectors and standardized.
 - Hyperparameter tuning via cross-validation.
 - Model performance assessed using the F1 score.
+![image](https://github.com/NevzatTalay/Capstone-Data-Scientist-Project-Sparkify/readme_images/1.png)
 
 ## Conclusion
 
