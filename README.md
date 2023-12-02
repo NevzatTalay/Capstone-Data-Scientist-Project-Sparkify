@@ -10,7 +10,7 @@
       5. [5. Machine Learning: Random Forest Classifier](#5-machine-learning-random-forest-classifier)
       6. [6. Machine Learning: Pipeline and GridSearch](#6-machine-learning-pipeline-and-gridsearch)
    3. [Conclusion](#conclusion)
-   4. [ Included Libraries](# Included_Libraries)
+   4. [ Included Libraries](#Included-Libraries)
    5. [How to Run](#how-to-run)
 
 # Spark Churn Analysis Project
