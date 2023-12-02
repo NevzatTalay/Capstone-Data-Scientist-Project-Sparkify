@@ -60,7 +60,7 @@ This repository contains a comprehensive analysis of user interactions within a 
 ### 3. Data Wrangling
 
 - Transformation of registration and timestamp columns into Unix time.
-- Removal of rows with no user or session ID.
+- Removal of rows with no user or session ID. The reason is that users with no userId is just the people visiting webpage with no registration or people are trying to register.
 - Creation of a user dataframe for churn activities (churn_matrice).
 
 ### 4. Feature Engineering
