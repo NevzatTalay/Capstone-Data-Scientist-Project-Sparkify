@@ -100,12 +100,33 @@ This repository contains a comprehensive analysis of user interactions within a 
 
 This Spark churn analysis project showcases the capabilities of Apache Spark and Python in deciphering complex user datasets and predicting churn. The combination of exploratory data analysis, data wrangling, feature engineering, and advanced machine learning techniques makes this project a comprehensive exploration of Spark's potential in user analytics.
 
-## Dependencies
+## Included Libraries
+```
+import ibmos2spark, os
+from pyspark.sql import SparkSession
+from pyspark.sql.functions import avg, col, concat, desc, explode, lit, min, max, split, udf, from_unixtime, when, sum, count
+from pyspark.sql.types import IntegerType
+from pyspark.sql import functions as F
+from pyspark.sql.functions import min as Fmin, max as Fmax, sum as Fsum, round as Fround
+from pyspark.sql import Window
+from pyspark.sql.window import Window
 
-- Python 3.x
-- Apache Spark
-- Jupyter Notebook
+from pyspark.ml.tuning import CrossValidator, ParamGridBuilder
+from pyspark.ml import Pipeline
+from pyspark.ml.feature import VectorAssembler, StandardScaler
+from pyspark.ml.evaluation import MulticlassClassificationEvaluator, BinaryClassificationEvaluator     
+from pyspark.ml import Pipeline                                                                                      
+from pyspark.ml.classification import LogisticRegression, RandomForestClassifier, GBTClassifier                     
 
+import pandas as pd                                                                                                          
+from IPython.display import display, HTML                                                                               
+import re                                                                                                                     
+import datetime                                                                                                         
+import numpy as np                                                                                           
+import matplotlib.pyplot as plt                                                                                  
+%matplotlib inline
+
+```
 ## How to Run
 
 1. Clone the repository.
